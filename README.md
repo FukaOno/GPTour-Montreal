@@ -1,4 +1,5 @@
 https://devpost.com/software/montreal-explorer 
+
 Inspiration
 
 As university students in Montreal, we were inspired by the city's complexity and the challenges of discovering its hidden gems. Our shared experiences navigating Montreal's diverse neighborhoods revealed a need for a more intelligent, personalized travel guide. Recognizing the potential of AI to transform travel planning, we developed a GPT-powered platform that provides accurate, tailored travel information, making exploration of Montreal more accessible and engaging for both locals and visitors.
