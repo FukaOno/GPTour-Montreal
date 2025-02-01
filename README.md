@@ -7,11 +7,11 @@ As university students in Montreal, we were inspired by the city's complexity an
 Our GPT-powered platform provides intelligent, personalized travel recommendations for Montreal. It leverages AI to generate customized itineraries, suggest local attractions, restaurants, and hidden gems, and offer real-time, contextually relevant travel advice. Users receive tailored suggestions based on their preferences, interests, and travel style, transforming trip planning into a seamless, intuitive experience.
 
 # How we built it
-・Frontend: We developed Montreal Explorer using React.js, creating an interactive and responsive user interface. The application features modular components for pages like "Discover Montreal" and "About Us", enabling easy customization and scalability. Tailored CSS styling captures Montreal's vibrant cultural essence.
+・Frontend: Developed Montreal Explorer using React.js, creating an interactive and responsive user interface. The application features modular components for pages like "Discover Montreal" and "About Us", enabling easy customization and scalability. Tailored CSS styling captures Montreal's vibrant cultural essence.
 
 ・Backend: Built with Python and Flask, the backend powers core application features, processing AI-driven recommendations and managing user interactions through efficient API endpoints.
 
-・Data Infrastructure: We curated Montreal's Hotels, events, and hidden gems through web scraping(Apify) and cleaning Quebec Data Partnership csv establishing a robust data foundation that supports our personalized recommendation engine.
+・Data Infrastructure: Curated Montreal's hotels, hvents, restaurants and hidden gems through web scraping(Apify) and cleaning Quebec Data Partnership csv establishing a robust data foundation that supports our personalized recommendation engine.
 
 # Challenges we ran into
 ・We first encountered challenges with Git collaboration, especially managing pushes and pulls, which caused some script loss in the beginning. We then adapted to use branches and merging systematically, which saved us a lot of trouble and made collaboration much easier.
