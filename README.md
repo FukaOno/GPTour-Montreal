@@ -15,10 +15,12 @@ Our GPT-powered platform provides intelligent, personalized travel recommendatio
 
 # Challenges we ran into
 ・We first encountered challenges with Git collaboration, especially managing pushes and pulls, which caused some script loss in the beginning. We then adapted to use branches and merging systematically, which saved us a lot of trouble and made collaboration much easier.
-Frontend-Backend Integration: Ensuring smooth communication between the React.js frontend and Flask backend posed challenges, especially when handling dynamic content and real-time updates.
+
+・Frontend-Backend Integration: Ensuring smooth communication between the React.js frontend and Flask backend posed challenges, especially when handling dynamic content and real-time updates.
 
 # Accomplishments that we're proud of
 ・We’re incredibly proud of our teamwork and collaboration, especially since, for most of us, this was our first full-stack and web project. Starting with little to no experience, we learned frontend and backend development from scratch, overcoming challenges and building a functional, aesthetic website. Seeing the website come together gave us a huge sense of accomplishment.
+
 ・We also learned to use APIs for the backend, implement web scraping, and manage the project with Git. This project not only strengthened our technical skills but also taught us the value of persistence and teamwork.
 
 # What we learned
