@@ -8,6 +8,7 @@ Our GPT-powered platform provides intelligent, personalized travel recommendatio
 
 # How we built it
 ・Frontend: We developed Montreal Explorer using React.js, creating an interactive and responsive user interface. The application features modular components for pages like "Discover Montreal" and "About Us", enabling easy customization and scalability. Tailored CSS styling captures Montreal's vibrant cultural essence.
+
 ・Backend: Built with Python and Flask, the backend powers core application features, processing AI-driven recommendations and managing user interactions through efficient API endpoints.
 Data Infrastructure: We curated Montreal's Hotels, events, and hidden gems through web scraping(Apify) and cleaning Quebec Data Partnership csv establishing a robust data foundation that supports our personalized recommendation engine.
 
