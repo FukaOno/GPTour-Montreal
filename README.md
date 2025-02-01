@@ -1,31 +1,76 @@
-# Demo Video: _https://youtu.be/Ia-uxu5puIw_
+# Montreal Explorer
 
-# Inspiration
-As university students in Montreal, we were inspired by the city's complexity and the challenges of discovering its hidden gems. Our shared experiences navigating Montreal's diverse neighborhoods revealed a need for a more intelligent, personalized travel guide. Recognizing the potential of AI to transform travel planning, we developed a GPT-powered platform that provides accurate, tailored travel information, making exploration of Montreal more accessible and engaging for both locals and visitors.
+## 🎥 Demo Video  
+[Watch here](https://youtu.be/Ia-uxu5puIw)
 
-# What it does
-Our GPT-powered platform provides intelligent, personalized travel recommendations for Montreal. It leverages AI to generate customized itineraries, suggest local attractions, restaurants, and hidden gems, and offer real-time, contextually relevant travel advice. Users receive tailored suggestions based on their preferences, interests, and travel style, transforming trip planning into a seamless, intuitive experience.
+---
 
-# How we built it
-・Frontend: Developed Montreal Explorer using React.js, creating an interactive and responsive user interface. The application features modular components for pages like "Discover Montreal" and "About Us", enabling easy customization and scalability. Tailored CSS styling captures Montreal's vibrant cultural essence.
+## 🚀 Inspiration  
+As university students in Montreal, we were inspired by the city's complexity and the challenge of discovering its hidden gems. Our experiences navigating Montreal’s diverse neighborhoods highlighted the need for a more intelligent, personalized travel guide. Recognizing AI’s potential to transform travel planning, we developed a GPT-powered platform that delivers accurate, tailored travel recommendations—making exploration easier and more engaging for both locals and visitors.
 
-・Backend: Built with Python and Flask, the backend powers core application features, processing AI-driven recommendations and managing user interactions through efficient API endpoints.
+---
 
-・Data Infrastructure: Curated Montreal's hotels, hvents, restaurants and hidden gems through web scraping(Apify) and cleaning Quebec Data Partnership csv establishing a robust data foundation that supports our personalized recommendation engine.
+## 🌍 What It Does  
+Montreal Explorer is an AI-powered travel assistant that provides personalized recommendations for exploring the city. The platform:  
+- Generates customized itineraries based on user preferences.  
+- Suggests local attractions, restaurants, and hidden gems.  
+- Offers real-time, context-aware travel advice.  
 
-# Challenges we ran into
-・We first encountered challenges with Git collaboration, especially managing pushes and pulls, which caused some script loss in the beginning. We then adapted to use branches and merging systematically, which saved us a lot of trouble and made collaboration much easier.
+By leveraging AI, Montreal Explorer transforms trip planning into a seamless, intuitive experience.
 
-・Frontend-Backend Integration: Ensuring smooth communication between the React.js frontend and Flask backend posed challenges, especially when handling dynamic content and real-time updates.
+---
 
-# Accomplishments that we're proud of
-・We’re incredibly proud of our teamwork and collaboration, especially since, for most of us, this was our first full-stack and web project. Starting with little to no experience, we learned frontend and backend development from scratch, overcoming challenges and building a functional, aesthetic website. Seeing the website come together gave us a huge sense of accomplishment.
+## 🛠 How We Built It  
+### **Frontend**  
+- Developed using **React.js**, ensuring a dynamic and responsive UI.  
+- Built modular components for pages like **"Discover Montreal"** and **"About Us"** for easy customization and scalability.  
+- Designed with **tailored CSS styling** to reflect Montreal’s vibrant cultural essence.  
 
-・We also learned to use APIs for the backend, implement web scraping, and manage the project with Git. This project not only strengthened our technical skills but also taught us the value of persistence and teamwork.
+### **Backend**  
+- Built with **Python and Flask**, handling AI-driven recommendations and user interactions.  
+- Implemented **efficient API endpoints** for seamless communication between frontend and backend.  
 
-# What we learned
-Through this project, we learned the basics of building a full-stack application, from creating a user-friendly frontend with React to developing a functional backend with Flask. We also gained experience with web scraping, API integration, RAG development, and managing version control with Git.
-On top of the technical skills, we learned the importance of teamwork and effective communication. Starting with little experience, we discovered how to divide tasks, solve problems collaboratively, and adapt to challenges as they arose. This project was a valuable learning experience that pushed us to grow both technically and as a team.
+### **Data Infrastructure**  
+- Curated data on Montreal’s **hotels, events, restaurants, and hidden gems** using **web scraping (Apify)**.  
+- Cleaned and processed datasets from **Quebec Data Partnership CSVs** to establish a robust foundation for personalized recommendations.  
 
-# What's next for Montreal Explorer
-We plan to evolve Montreal Explorer into World Explorer, expanding its reach to cities worldwide. Along with this, we aim to integrate features like real-time event updates, personalized notifications, and multi-language support to make the platform accessible to a global audience. By enhancing the recommendation engine with user reviews and feedback, we aspire to create the ultimate go-to platform for discovering the best experiences anywhere in the world.
+---
+
+## ⚡ Challenges We Faced  
+### **Git Collaboration**  
+- Initially struggled with push/pull conflicts, leading to script loss.  
+- Adopted a **structured branching and merging workflow**, improving collaboration efficiency.  
+
+### **Frontend-Backend Integration**  
+- Faced difficulties ensuring smooth communication between **React.js** and **Flask**.  
+- Optimized API calls and **handled dynamic content updates** to enhance performance.  
+
+---
+
+## 🏆 Accomplishments We're Proud Of  
+- Successfully built our **first full-stack web application** with **no prior experience** in web development.  
+- Overcame technical challenges, learned frontend and backend development, and created a **functional and visually appealing website**.  
+- Gained hands-on experience with **API development, web scraping, and Git version control**.  
+- Strengthened our **problem-solving skills, persistence, and teamwork** throughout the project.  
+
+---
+
+## 📚 What We Learned  
+- Fundamentals of **full-stack development** (React frontend + Flask backend).  
+- Web scraping techniques and **API integration**.  
+- Version control best practices with **Git**.  
+- Effective **teamwork and problem-solving** in a collaborative setting.  
+- How to **adapt, iterate, and overcome challenges** while building a real-world application.  
+
+---
+
+## 🔮 What's Next?  
+Our vision is to expand **Montreal Explorer** into **World Explorer**, bringing personalized travel recommendations to cities worldwide. Future enhancements include:  
+✅ **Real-time event updates**  
+✅ **Personalized notifications**  
+✅ **Multi-language support**  
+✅ **User reviews & feedback integration**  
+
+By refining our recommendation engine, we aim to create the ultimate **AI-powered global travel assistant** for discovering the best experiences anywhere in the world.  
+
+---
