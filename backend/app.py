@@ -10,7 +10,7 @@ import re
 from dateutil.parser import parse
 
 
-key = "sk-31b44503ea5243b3be8af9d7cd014122"
+key = "sk-c7d768f11bb642408539aa4701dd0fc2"
 
 app = Flask(__name__)
 CORS(app)
