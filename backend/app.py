@@ -1,6 +1,8 @@
+import os
 from flask import Flask, request, Response, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from sqlalchemy import or_, and_
+from dotenv import load_dotenv
 from flask_cors import CORS
 from openai import OpenAI
 import uuid
@@ -10,17 +12,19 @@ import re
 from dateutil.parser import parse
 
 
-key = "sk-c7d768f11bb642408539aa4701dd0fc2"
+key = os.getenv("KEY")
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
 app.debug = True
 
 # Database Configuration
-app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+pymysql://root:fuka1010@localhost/montreal_events'
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv("DB_URI")
 app.config['SQLALCHEMY_BINDS'] = {
-    'hotel': 'mysql+pymysql://root:fuka1010@localhost/hotel_db',
-    # 'attraction': 'mysql+pymysql://root:fuka1010@localhost/attraction' 
+    'hotel': os.getenv("DB_URI_HOTEL")
+    # 'attraction': os.getenv("DB_URI_ATTRACTION")
 
 }
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
