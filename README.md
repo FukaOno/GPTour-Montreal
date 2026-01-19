@@ -1,4 +1,4 @@
-# Montreal Explorer
+# GPTour-Montreal
 
 ## 🎥 Demo Video  
 [Watch here](https://youtu.be/Ia-uxu5puIw)
